@@ -93,8 +93,8 @@ $results = $httpClient->multiRequest(array(
         'allow_redirects' => true,
         'max_redirects'   => 10, 
         'user_agent'      => 'JBZoo/Http-Client v1.x-dev'
-    ]]
-]);
+]],
+  ));
 
 $results['request_0']->getBody(); 
 $results['request_1']->getBody(); 
